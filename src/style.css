@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background: #ff6b6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px
+}
+
+.nav--logo{
+  text-align: center;
+  background-color: blue;
+  height: 100%;
+}
+
+h2 {
+  color: white
+}
+
+.card {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  gap: 2em;
+  margin: 2em;
+}
+
+.card--image {
+  width: 100%;
+  min-height: 250px;
+  min-width: 200px;
+  border-radius: 20px;
+}
+
+a {
+  color: gray;
+  margin-left: 1em;
+  letter-spacing: 0em;
+}
+
+.card--title {
+  margin-top: 0%;
+}
+
+.card--country{
+  line-height: 1.5%;
+  letter-spacing: 0.0625em;
+}
