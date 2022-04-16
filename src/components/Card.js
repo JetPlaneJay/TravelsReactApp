@@ -7,10 +7,10 @@ export default function Card(props) {
             <img src={`${props.imageUrl}`}
             className="card--image" alt="Site in Country" />
             <article>
-                <section>
+                <section className="card--CountryandMap">
                     <p className="card--country">{props.location}  
-                        <a href="{props.googleMapsUrl}">View on Google Maps</a> 
                     </p>
+                    <a href="{props.googleMapsUrl}">View on Google Maps</a>
                 </section>
                 <section>
                 <h1 className="card--title">{props.title}</h1>
@@ -23,4 +23,3 @@ export default function Card(props) {
         </div>
     )
 }
-
