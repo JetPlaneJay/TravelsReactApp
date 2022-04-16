@@ -5,7 +5,7 @@ export default function Card(props) {
     return (
         <div className="card">
             <img src={`${props.imageUrl}`}
-            className="card--image" />
+            className="card--image" alt="Site in Country" />
             <article>
                 <section>
                     <p className="card--country">{props.location}  
