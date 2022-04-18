@@ -25,12 +25,14 @@ h2 {
 .card {
   display: grid;
   grid-template-columns: .5fr 1fr;
-  gap: 2em;
+  gap: 1em;
   box-shadow: 10px 10px 10px lightgray;
   padding-top: 0%;
   padding-left: 5em;
   padding-right: 5em;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card > article {
@@ -41,7 +43,7 @@ padding: 3em;
 
 .card--image {
   width: 100%;
-  min-height: 250px;
+  min-height: 200px;
   min-width: 200px;
   border-radius: 20px;
 }
@@ -81,5 +83,6 @@ a {
   .card--image{
     min-width: 100px;
     min-height: 120px;
+    height: 20%;
   }
 }
